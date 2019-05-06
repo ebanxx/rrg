@@ -1,5 +1,8 @@
 # Field Report
 Name: Emmanuel Banjoko
 Date: April 21st, 2019 
-Location: Sky Bridge
-Feature is across the main river stream and the estimated size is a feature that spans approximately 311 feet
+Location: Natural Bridge
+
+Feature is at the forefront and near the most tourism-centric part of the trail and the estimated size is a feature that spans approximately 78 ft wide.
+
+![Image](../assests/IMG_1720.jpg)
