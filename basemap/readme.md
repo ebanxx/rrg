@@ -8,4 +8,4 @@ Feature is at the forefront and near the most tourism-centric part of the trail 
 ![Image](../assests/IMG_1720.jpg)
 Underneath Natural Bridge
 
-![Image](../assets/IMG_1721.jpg)
+![Image](../assests/IMG_1721.jpg)
