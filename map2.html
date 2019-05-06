@@ -103,42 +103,75 @@
   </head>
   <body>
   
-  <div id='map'></div>
-  
-    <script >
-      // Change this to your Token ----------------------
-      mapboxgl.accessToken = 'pk.eyJ1IjoiZWJhbnh4IiwiYSI6ImNqdmJxN2p6aDFxM280NG50aWp0NzNyNHUifQ.rrNMZyCqv9WWHEukd4v2vQ'; 
-      // ------------------------------------------------
-      
-      var map = new mapboxgl.Map({
-        container: 'map',
-  
-        // Change this to your style --------------------
-        style: 'mapbox://styles/ebanxx/cjvbr0itmdxqo1fs39bbt6sqg', 
-        // ----------------------------------------------
-  
-        // Change to your location ----------------------
-       // zoom: 15.65, 
-       // center: [-83.657662, 37.817418]
-        // ----------------------------------------------
-  
-      });
-  
-      // Add geolocate control to the map.
-       map.addControl(new mapboxgl.GeolocateControl({
-        positionOptions: {
-          enableHighAccuracy: true
-        },
-        trackUserLocation: true
-      }));
-    </script>
+        <div id='map'></div>
 
+        <script>
+          // Change this to your Token ----------------------
+          mapboxgl.accessToken = 'pk.eyJ1IjoiZWJhbnh4IiwiYSI6ImNqdmJxN2p6aDFxM280NG50aWp0NzNyNHUifQ.rrNMZyCqv9WWHEukd4v2vQ'; 
+          // ------------------------------------------------
+          
+          var map = new mapboxgl.Map({
+            container: 'map',
+      
+            // Change this to your style --------------------
+            style: 'mapbox://styles/ebanxx/cjvbr0itmdxqo1fs39bbt6sqg', 
+            // ----------------------------------------------
+      
+            // Change to your location ----------------------
+           // zoom: 15.65, 
+           // center: [-83.657662, 37.817418]
+            // ----------------------------------------------
+      
+          });
+      
+          // Add geolocate control to the map.
+           map.addControl(new mapboxgl.GeolocateControl({
+            positionOptions: {
+              enableHighAccuracy: true
+            },
+            trackUserLocation: true
+          }));
+        </script>
+      
+      </body>
 
     <!--  Dude! This is your map. -->
     <h4>Authored by: ebanxx</h4>
 
     <!-- Details about how the map was made, data sources, and any other relevant information. -->
     <h5>These Maps were made using a collaborative effort from ArcGIS Pro and MapBox</h5>
+
+    <div id='map'></div>
+
+  <script>
+    // Change this to your Token ----------------------
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZWJhbnh4IiwiYSI6ImNqdmJxN2p6aDFxM280NG50aWp0NzNyNHUifQ.rrNMZyCqv9WWHEukd4v2vQ'; 
+    // ------------------------------------------------
+    
+    var map = new mapboxgl.Map({
+      container: 'map',
+
+      // Change this to your style --------------------
+      style: 'mapbox://styles/ebanxx/cjvbr0itmdxqo1fs39bbt6sqg', 
+      // ----------------------------------------------
+
+      // Change to your location ----------------------
+     // zoom: 15.65, 
+     // center: [-83.657662, 37.817418]
+      // ----------------------------------------------
+
+    });
+
+    // Add geolocate control to the map.
+     map.addControl(new mapboxgl.GeolocateControl({
+      positionOptions: {
+        enableHighAccuracy: true
+      },
+      trackUserLocation: true
+    }));
+  </script>
+
+</body>
 
     <div style="padding:56.25% 0 0 0;position:relative;"></div><iframe width="560" height="315" src="https://www.youtube.com/embed/KUYBPF2CXE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><script src="https://youtube.com"></script>
 
