@@ -15,3 +15,4 @@ Underneath left side of Natural Bridge
 Photo of what I indicated to be some type of Karst Landforms undearneath Natural Bridge
 
 ![Image](../assests/IMG_1723.jpg)
+Natural Bridge from a distance
