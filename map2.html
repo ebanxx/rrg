@@ -2,6 +2,48 @@
 <html>
 
 <head>
+        head>
+        <meta charset='utf-8' />
+        <title>Natural Bridge</title> <!--Change this!! -->
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+        <style>
+          body { margin:0; padding:0; }
+          #map { position:absolute; top:0; bottom:0; width:100%; }
+        </style>
+      </head>
+      <body>
+      
+      <div id='map'></div>
+      
+        <script>
+          // Change this to your Token ----------------------
+          mapboxgl.accessToken = 'pk.eyJ1IjoiZWJhbnh4IiwiYSI6ImNqdmJxN2p6aDFxM280NG50aWp0NzNyNHUifQ.rrNMZyCqv9WWHEukd4v2vQ'; 
+          // ------------------------------------------------
+          
+          var map = new mapboxgl.Map({
+            container: 'map',
+      
+            // Change this to your style --------------------
+            style: 'mapbox://styles/ebanxx/cjvbr0itmdxqo1fs39bbt6sqg', 
+            // ----------------------------------------------
+      
+            // Change to your location ----------------------
+           // zoom: 15.65, 
+           // center: [-83.657662, 37.817418]
+            // ----------------------------------------------
+      
+          });
+      
+          // Add geolocate control to the map.
+           map.addControl(new mapboxgl.GeolocateControl({
+            positionOptions: {
+              enableHighAccuracy: true
+            },
+            trackUserLocation: true
+          }));
+        </script>
   <meta charset=utf-8 />
   <title>Natural Bridge</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
@@ -97,6 +139,8 @@
     <!-- Details about how the map was made, data sources, and any other relevant information. -->
     <h3>These Maps were made using a collaborative effort from ArcGIS Pro and MapBox</h3>
 
+    <div style="padding:56.25% 0 0 0;position:relative;"></div><iframe width="560" height="315" src="https://www.youtube.com/embed/KUYBPF2CXE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><script src="https://youtube.com"></script>
+
     <p>
       ,<img src="../rrg/assests/IMG_1720.jpg" class="max-image-width" alt="Natural Bridge">
     </p>
@@ -104,10 +148,13 @@
     <p>
       ,<img src="../rrg/assests/IMG_1721.jpg" class="max-image-width" alt="Natural Bridge">
     </p>
-    
+
     <p><img src="../rrg/assests/IMG_1722.jpg" class="max-image-width" alt="Natural Bridge">
     </p>
-      
+
+    <p><img src="../rrg/assests/IMG_1723.jpg" class="max-image-width" alt="Natural Bridge">
+    </p>  
+
     <p>
       University of Kentucky GEO 409, Spring 2019.
     </p>
